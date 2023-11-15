@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: url("../img/headmin.jpg");
+}
+body {
+  background-color: #000;
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link {
+  text-decoration: none;
+  color: azure;
+}
+aside {
+  padding: 12px 10%;
+}
+.bg-transparent {
+  background-color: #00000000;
+}
+
+.font-header {
+  font-size: 60px;
+  font-family: Poppins, sans-serif;
+}
+.fs-8 {
+  font-size: small;
+}
+.scrolling {
+  transition: background-color 0.2s ease; /* Ajusta la duración y el tipo de animación según tus preferencias */
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.f {
+  width: 150px;
+  height: 70px;
+}
+.d {
+  position: relative;
+  z-index: 1;
+}
+.bg {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  opacity: 0.9;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.829) 33%,
+    rgba(0, 0, 0, 0) 94%
+  );
+}
+.font-header-p {
+  font-family: Sen, sans-serif;
+}
+.green {
+  background-color: #00fe00;
+}
+.text-green {
+  color: #49e600;
+}
+.btn-header:hover {
+  color: #f0f8ff;
+}
+.w {
+  width: 750px;
+}
+.vh-80 {
+  height: 80vh;
+}
+.width-card {
+  width: 100px;
+}
+.card-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.width-imagen-info {
+  width: 150px;
+}
+.card-main {
+  padding: 30px;
+  background-color: #0f1310;
+}
+.btn-header {
+  border-width: 0;
+  font-family: Poppins, sans-serif;
+  border: none;
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #00fe00;
+}
+.info-section {
+  background-color: #101512;
+}
+@media (max-width: 900px) {
+  .w {
+    width: auto;
+  }
+  .font-header {
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  aside {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.sni-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/ctn.jpg");
+  width: 100%;
+  height: 80vh;
+}
+.w-info-section {
+  max-width: 1100px;
+}
