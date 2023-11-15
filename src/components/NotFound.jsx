@@ -1,4 +1,4 @@
-import About from "./About";
+import AboutNotFound from "./AboutNotFound";
 import Navbar from "./Navbar";
 
 const NotFound = () => {
@@ -14,7 +14,7 @@ const NotFound = () => {
             Parece que no se ha encontrado nada en esta ubicación.
           </p>
         </div>
-        <About />
+        <AboutNotFound />
       </main>
     </>
   );
